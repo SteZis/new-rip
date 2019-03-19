@@ -1,10 +1,11 @@
 package main
 
-import (
-	"fmt"
-	"math/rand"
-)
+import "fmt"
 
 func main() {
-	fmt.Println("My favorite number is", rand.Intn(10))
+	add(2, 2)
+}
+func add(x, c int) {
+	var z = x + c
+	fmt.Println("2 + 2 =", z)
 }
